@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+    
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    
+}
+
+section{
+    display: flex;
+
+}
+
+h2{
+    justify-content: center;
+    margin: 50px;
+}
+
+.left-container{
+    flex-basis: 20%;
+}
+
+.card {
+    display: flex;
+    height: 172px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+}
+}
+
+
+.right-container{
+    flex: content;
+}
