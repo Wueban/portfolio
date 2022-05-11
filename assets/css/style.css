@@ -16,14 +16,24 @@ section{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 h1{
    font-size: 50px;
    margin: 0;
 }
 
+h2{
+    font-size: 30px;
+}
+
 footer{
     height: 500px;
-    background-color: black;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
 }
 
 nav{
@@ -81,4 +91,41 @@ li{
 .sns{
     margin: 10px;
 }
+
+.info-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.other-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*.picture{
+picture mesuraments 
+}*/
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 900px) {
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+.project-card{
+    width: 200px;
+    height: 300px ;
+    box-shadow: 20px 20px 20px 10px #abdbe3
+
+}
+
+
 
