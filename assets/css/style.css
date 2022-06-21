@@ -30,6 +30,7 @@ h2{
 }
 
 footer{
+    flex-wrap: wrap;
     height: 500px;
     background-color: white;
     text-align: center;
