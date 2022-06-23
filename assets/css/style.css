@@ -27,6 +27,7 @@ h1{
 
 h2{
     font-size: 30px;
+
 }
 
 footer{
@@ -108,10 +109,19 @@ li{
     flex-direction: column;
     text-align: center;
 }
+/* .me{
+    width: 240px;
 
-.picture{
-    background-image: url("");
+
+} */
+
+img{
+    object-fit: contain;
+    max-width: 100%;
+    height: 250px;
+    border-radius: 50px;
 }
+
 
 .project-container{
     display: flex;
