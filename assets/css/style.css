@@ -37,6 +37,10 @@ footer{
     padding: 40px;
 }
 
+footer a {
+    color: black;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -105,9 +109,9 @@ li{
     text-align: center;
 }
 
-/*.picture{
-picture mesuraments 
-}*/
+.picture{
+    background-image: url("");
+}
 
 .project-container{
     display: flex;
